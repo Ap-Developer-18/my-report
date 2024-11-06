@@ -1,0 +1,97 @@
+import { BudgetIcon, CardIcon, ProfileIcon, ReportsIcon } from "./Icons";
+import visaImg from "../../assets/images/png/dashboard/visa.png";
+
+export const sidebarLinks = [
+  {
+    url: "/cards",
+    link: "cards",
+    icon: <CardIcon />,
+  },
+  {
+    url: "/budget",
+    link: "budget",
+    icon: <BudgetIcon />,
+  },
+  {
+    url: "/reports",
+    link: "reports",
+    icon: <ReportsIcon />,
+  },
+  {
+    url: "/profile",
+    link: "profile",
+    icon: <ProfileIcon />,
+  },
+];
+export const cardData = [
+  {
+    id: 1,
+    bankName: "M3 Financial",
+    status: "Active",
+    cardNumber: "5521 •••• •••• 5211",
+    csc: "***",
+    expDate: "06/29",
+    cardHolder: "John Doe",
+    cardImg: visaImg,
+  },
+  {
+    id: 2,
+    bankName: "M3 Financial",
+    status: "Inactive",
+    cardNumber: "1234 •••• •••• 5678",
+    csc: "***",
+    expDate: "11/25",
+    cardHolder: "Jane Doe",
+    cardImg: visaImg,
+  },
+  {
+    id: 3,
+    bankName: "M3 Financial",
+    status: "Active",
+    cardNumber: "9876 •••• •••• 5432",
+    csc: "***",
+    expDate: "03/27",
+    cardHolder: "Alice Smith",
+    cardImg: visaImg,
+  },
+  {
+    id: 4,
+    bankName: "M3 Financial",
+    status: "Inactive",
+    cardNumber: "1111 •••• •••• 2222",
+    csc: "***",
+    expDate: "09/30",
+    cardHolder: "Bob Johnson",
+    cardImg: visaImg,
+  },
+  {
+    id: 5,
+    bankName: "M3 Financial",
+    status: "Active",
+    cardNumber: "3333 •••• •••• 4444",
+    csc: "***",
+    expDate: "07/28",
+    cardHolder: "Charlie Brown",
+    cardImg: visaImg,
+  },
+  {
+    id: 6,
+    bankName: "M3 Financial",
+    status: "Inactive",
+    cardNumber: "5555 •••• •••• 6666",
+    csc: "***",
+    expDate: "12/26",
+    cardHolder: "David Wilson",
+    cardImg: visaImg,
+  },
+  {
+    id: 7,
+    bankName: "M3 Financial",
+    status: "Active",
+    cardNumber: "7777 •••• •••• 8888",
+    csc: "***",
+    expDate: "04/24",
+    cardHolder: "Emily Davis",
+    cardImg: visaImg,
+  },
+];
